@@ -33,3 +33,15 @@ def convoMenu():
 # Conversation menu
 
 convoMenu()
+convo = int(input("Enter the number of your choice: "))
+
+if convo == 1:
+  print("This is a Placeholder for now :)")
+elif convo == 2:
+  print("This is a Placeholder for now :)")
+elif convo == 3:
+  print("This is a Placeholder for now :)")
+elif convo == 4:
+  print(f"Goodbye, {name}! Have a great day!")
+else:
+  print("Please choose one of the four options.")
