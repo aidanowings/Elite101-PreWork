@@ -20,7 +20,16 @@ elif age > 120:
   print(f"Welcome {name}! Wow! Breaking records with that age! How can I help you today?")
 else:
   print("Sorry, try again.")
+
+# Conversation menu function
+
+def convoMenu():
+  print("Please choose from the following options:")
+  print("1. Placeholder Option 1")
+  print("2. Placeholder Option 2")
+  print("3. Placeholder Option 3")
+  print("4. Exit the conversation")
+
 # Conversation menu
 
-
-
+convoMenu()
